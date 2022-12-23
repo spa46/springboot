@@ -1,6 +1,10 @@
-sudo apt install mariadb-server
+# To Start
 
-# Database Operation
+```
+sudo apt install mariadb-server
+```
+
+For a database activation:
 ```
 sudo mysql -u root
 CREATE USER 'flature'@localhost IDENTIFIED BY 'aroundhub12#';
